@@ -1,0 +1,2 @@
+This project is developed only with HTML and CSS. A landPage for a fast food restaurant, which tells a little about its history and shows its most famous menus.
+technique to align the items was with Flex Box.
