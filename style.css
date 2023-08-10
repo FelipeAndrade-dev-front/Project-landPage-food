@@ -1,98 +1,102 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
-    
+
 }
 
-header{
+header {
     height: 80px;
-    
-    
+
+
 }
-.header-container{
+
+.header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
     padding-top: 15px;
-    
-   
-    
+
+
+
 }
 
-.nav-itens{
+.nav-itens {
     display: flex;
     flex-wrap: wrap;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-family: sans-serif;
 }
 
-a:hover{
-    color:rgb(100, 241, 100);
-   
+a:hover {
+    color: rgb(100, 241, 100);
+
 }
 
-li{
-   list-style: none;
+li {
+    list-style: none;
     padding: 10px;
 }
 
-.select-style{
+.select-style {
     padding: 8px;
     border-radius: 5px 5px 0px 5px;
     background-color: black;
     color: white;
 }
 
-.button-nav{
+.button-nav {
     background-color: rgb(241, 162, 14);
     margin-left: 10px;
-    
+
     border-radius: 10px;
     border: none;
     padding-bottom: 10px;
-    
-    
+
+
 }
 
 /*Container - Principal*/
 
-main{
+main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 40px;
 }
 
-.main-text-container{
+.main-text-container {
     margin-left: 150px;
 }
-.h1{
+
+.h1 {
     color: rgb(100, 241, 100);
     font-style: italic;
     font-size: 55px;
-    
+
 }
-.strong-text{
+
+.strong-text {
     font-size: 65px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
 }
-.small-text{
-    
+
+.small-text {
+
     font-size: 16px;
     color: gray;
     margin-bottom: 50px;
 }
 
-.select-style-2{
-    
+.select-style-2 {
+
     border-radius: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid orange;
@@ -102,144 +106,181 @@ main{
     transition: 1s;
 }
 
-.select-style-2:hover{
-   cursor: pointer;
-   border: 2px solid orange;
-   background-color: white;
-   color:orange;
-   
+.select-style-2:hover {
+    cursor: pointer;
+    border: 2px solid orange;
+    background-color: white;
+    color: orange;
+
 }
 
-.menu{
+.menu {
     display: flex;
-    
-    
+
+
 }
 
-span{
+span {
     margin-left: 15px;
 }
 
-.main-img-container{
+.main-img-container {
     margin-right: px;
 }
 
 /*menu box de comidas vertical*/
 
-h2{
+h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 100px;
     margin-left: 120px;
 }
 
-.box-container-menu{
+.box-container-menu {
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+
 }
 
-.box-popular-menus{
+.box-popular-menus {
     margin-top: 35px;
     background-color: rgba(224, 222, 222, 0.534);
     height: 150px;
     width: 210px;
     border-radius: 15px;
-    
+
 }
 
-.box-popular-menus:hover{
+.box-popular-menus:hover {
     cursor: pointer;
-        
+
 }
 
-.box-menus-2{
+.box-menus-2 {
     display: flex;
     margin-left: 25px;
-    
+
 }
 
-.burgue{
-    width: 130px;      
+.burgue {
+    width: 130px;
 }
-.burgue:hover{
+
+.burgue:hover {
     width: 160px;
-    
-    transition: 1s;      
+
+    transition: 1s;
 }
-.prato{
+
+.prato {
     width: 110px;
     padding-top: 25px;
-    
-}
-.prato:hover{
-    width: 150px;
-    transition: 1s;
-    
-    
+
 }
 
-.coca{
+.prato:hover {
+    width: 150px;
+    transition: 1s;
+
+
+}
+
+.coca {
     width: 60px;
     margin-left: 50px;
     padding-top: 10px;
 }
 
-.coca:hover{
+.coca:hover {
     width: 72px;
     transition: 1s;
-    
+
 }
 
-.pizza{
+.pizza {
     width: 120px;
     margin-left: 20px;
     padding-top: 25px;
 }
 
-.pizza:hover{
+.pizza:hover {
     width: 150px;
     transition: 1s;
-    
+
 }
 
 /*box com segundo text*/
 
-.box-text-2{
+.box-text-2 {
 
     text-align: center;
     margin-right: 80px;
     margin-top: -50px;
 }
 
-.strong-text-2{
+.strong-text-2 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-left: 30px;
 }
 
-footer{
+footer {
     background-color: gray;
     color: white;
     height: 100px;
     margin-top: 50px;
     text-align: center;
-    
+
 }
-.footer{
+
+.footer {
     padding-top: 45px;
 }
 
-.copy{
+.copy {
     color: white;
     font-size: 15px;
 }
 
-.copy:hover{
+.copy:hover {
     color: orange;
-    
+
 }
+
+/*responsivo*/
+
+
+/*medida para celulares*/
+@media(max-width:450px) {
+
+    .main-text-container {
+        margin-left: 90px;
+        margin-top: 55px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            
+            
+            margin-top: 40px;
+        }
+       
+}
+
+/*medida para tablets e desck*/
+
+@media (min-width:877px) and (max-width:1024) {}
