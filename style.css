@@ -278,7 +278,9 @@ footer {
             
             margin-top: 40px;
         }
-       
+        footer {
+            width: 450px;
+        }
 }
 
 /*medida para tablets e desck*/
