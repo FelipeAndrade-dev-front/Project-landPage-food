@@ -278,6 +278,25 @@ footer {
             
             margin-top: 40px;
         }
+        .box-text-2 {
+
+            text-align: center;
+            margin-left: 80px;
+            margin-top: -50px;
+        }
+        
+      
+        .strong-text {
+            padding: 100px;
+        }
+        
+        .small-text {
+        
+            font-size: 16px;
+            color: rgb(66, 65, 65);
+            margin-bottom: 50px;
+        }
+        
         footer {
             width: 450px;
         }
