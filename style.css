@@ -271,6 +271,19 @@ footer {
 
     }
 
+    .strong-text {
+        font-size: 45px;
+        
+       
+    }
+
+    .small-text {
+
+        font-size: 11px;
+        margin-right: 75px;
+        
+       
+    }
     
 
     .img-principal{
@@ -290,7 +303,7 @@ footer {
     }
 
     .hot{
-        width: 250px;
+        width: 150px;
 
 
     }
