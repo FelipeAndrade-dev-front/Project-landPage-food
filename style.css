@@ -81,6 +81,11 @@ main {
     margin-bottom: 50px;
 }
 
+.img-principal{
+    height: 400px;
+    width: 450px;
+}
+
 .select-style-2 {
 
     border-radius: 8px;
@@ -199,6 +204,18 @@ h2 {
 
 /*box com segundo text*/
 
+.hot{
+    width: 350px; 
+    margin-top: 50px; 
+    margin-left: 50px;
+}
+
+.h2{
+    color: rgb(100, 241, 100);
+    font-style: italic;
+    font-size: 55px;  
+}
+
 .box-text-2 {
 
     text-align: center;
@@ -257,7 +274,8 @@ footer {
     
 
     .img-principal{
-        width: 150px;
+        width: 350px;
+        margin-left: 45px;
     }
 
 
@@ -271,28 +289,50 @@ footer {
         margin-top: 40px;
     }
 
-    .box-text-2 {
+    .hot{
+        width: 250px;
 
-        text-align: center;
-        margin-left: 80px;
-        margin-top: -50px;
+
     }
 
 
-    .strong-text {
+    .box-text-2 {
+        width: 370px;
+        margin: 0px;
+        margin-left: 5px;
         
+    }
+
+    .h2{
+        margin-left: 75px;
+        color: rgb(100, 241, 100);
+        font-style: italic;
+        font-size: 35px;
+        width: 260px;
+        
+    }
+
+
+    .strong-text-2 {
+        width: 350px;
+        height: 150px;
+        margin: 0px;        
+        font-size: 16px;
+        margin-left: 29px;
+       
     }
 
     .small-text {
 
         font-size: 16px;
         color: rgb(66, 65, 65);
-        margin-bottom: 50px;
-        margin-right: 25px;
+        margin-left: 26px;
+        
+        
     }
 
     footer {
-        width: 450px;
+        width: 430px;
     }
 }
 
